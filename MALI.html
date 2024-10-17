@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mali - Estrategias de Medios Digitales</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff;
+      color: #000;
+    }
+    header {
+      text-align: center;
+      background-image: url('banner.jpg'); /* Reemplaza 'banner.jpg' con la ruta a tu imagen */
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    header h1 {
+      font-size: 3em;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 20px;
+      border-radius: 10px;
+    }
+    nav {
+      text-align: center;
+      background-color: #333;
+      padding: 10px 0;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 0 20px;
+    }
+    .section {
+      padding: 50px 0;
+      border-bottom: 1px solid #ddd;
+    }
+    .circle-container {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 40px;
+    }
+    .circle {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      background-color: #ddd;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    .service-plans {
+      display: flex;
+      justify-content: space-around;
+    }
+    .plan {
+      background-color: #f0f0f0;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      width: 23%;
+      text-align: center;
+    }
+    .videos {
+      display: flex;
+      justify-content: space-between;
+    }
+    .video {
+      width: 48%;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    form input, form textarea {
+      width: 80%;
+      max-width: 500px;
+      margin: 10px 0;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    form button {
+      padding: 10px 20px;
+      background-color: #000;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="header"><img src="C:\Users\Estudiante\Documents\SENA 11\banner mali.png" width="1400" height="300"></div>
+  </header>
+
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#acerca">Acerca de Nosotros</a>
+    <a href="#contacto">Contáctanos</a>
+  </nav>
+
+  <div class="container">
+    <section id="inicio" class="section">
+      <h2>Inicio</h2>
+      <div class="circle-container">
+        <div class="circle"><img src="C:\Users\Estudiante\Documents\SENA 11\uuu.jpg" alt="Trabajo 1" width="200" height="200"></div>
+        <div class="circle"><img src="C:\Users\Estudiante\Documents\SENA 11\zuu.jpg" alt="Trabajo 2" width="200" height="200"></div>
+        <div class="circle"><img src="C:\Users\Estudiante\Documents\SENA 11\zzu.jpg" alt="Trabajo 3" width="200" height="200"></div>
+      </div>
+      <div class="circle-container">
+        <p>Nosotros ayudaremos a tu empresa a tener una mejor imagen en el mercado.</p>
+        <p>Manejamos herramientas modernas que incrementan tu negocio y tus ventas.</p>
+        <p>Te ofrecemos la mejor calidad de estrategias de negocio.</p>
+      </div>
+    </section>
+
+    <section id="servicios" class="section">
+      <h2>Servicios o Planes</h2>
+      <div class="service-plans">
+        <div class="plan">
+          <h3>Plan Básico</h3>
+          <p>Precio: $100/mes</p>
+          <p>Incluye:</p>
+          <ul>
+            <li>Gestión de Redes Sociales</li>
+            <li>Reportes Mensuales</li>
+          </ul>
+        </div>
+        <div class="plan">
+          <h3>Plan Intermedio</h3>
+          <p>Precio: $200/mes</p>
+          <p>Incluye:</p>
+          <ul>
+            <li>Gestión de Redes Sociales</li>
+            <li>Reportes Quincenales</li>
+            <li>Publicidad en Redes</li>
+          </ul>
+        </div>
+        <div class="plan">
+          <h3>Plan Avanzado</h3>
+          <p>Precio: $300/mes</p>
+          <p>Incluye:</p>
+          <ul>
+            <li>Gestión de Redes Sociales</li>
+            <li>Reportes Semanales</li>
+            <li>Publicidad en Redes</li>
+            <li>Brandboard o modelo de negocio basico</li>
+          </ul>
+        </div>
+        <div class="plan">
+          <h3>Plan Premium</h3>
+          <p>Precio: $500/mes</p>
+          <p>Incluye:</p>
+          <ul>
+            <li>Gestión de Redes Sociales</li>
+            <li>Reportes Diarios</li>
+            <li>Publicidad en Redes</li>
+            <li>Brandboard o modelo de negocio avanzado</li>
+            <li>Consultoría Mensual</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="acerca" class="section">
+      <h2>Acerca de Nosotros</h2>
+      <div class="videos">
+        <div class="video">
+          <h3>Quienes Somos</h3>
+          <video controls>
+            <source src="quienes-somos.mp4" type="video/mp4">
+            Tu navegador no soporta el elemento de video.
+          </video>
+        </div>
+        <div class="video">
+          <h3>A Qué Nos Dedicamos</h3>
+          <video controls>
+            <source src="a-que-nos-dedicamos.mp4" type="video/mp4">
+            Tu navegador no soporta el elemento de video.
+          </video>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="section">
+      <h2>Contáctanos</h2>
+      <p>Número: +57 3017811743</p>
+      <p>Email: mali.publicidadd@gmail.com</p>
+      <p>Redes Sociales: @mali_publicidad</p>
+      <form>
+        <input type="text" placeholder="Tu nombre" required>
+        <input type="email" placeholder="Tu correo" required>
+        <textarea placeholder="Tu mensaje" rows="5" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 Mali - Estrategias de Medios Digitales</p>
+  </footer>
+
+</body>
+</html>
